@@ -1,6 +1,16 @@
 <?php
 
+
+/**
+ * Class Form
+ * Permet de générer un formaulaire rapidement et simplements
+ */
+
 class Form{
+
+	/**
+	 * @var array Données utilisées pour le formulaire
+	 */
 
 	private $data; 
 	public $surround = 'p';
@@ -23,8 +33,11 @@ class Form{
 
 	public function submit(){
 		return $this->surround('<button type="submit">Envoyer</button>');
-	}
+	
 
 }
 
-?>
+
+
+
+
