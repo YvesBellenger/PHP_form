@@ -34,7 +34,7 @@ class Form{
 	public function submit(){
 		return $this->surround('<button type="submit">Envoyer</button>');
 	
-
+	}
 }
 
 
